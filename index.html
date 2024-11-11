@@ -8,6 +8,13 @@
     {
     background-color: #DAF5FF;
     }
+    #profile-pic {
+      opacity: 0; /* Starts as invisible */
+      transition: opacity 2s ease-in; /* 2-second fade-in effect */
+    }
+    /* Make the image fully visible once it loads */
+    #profile-pic.show {
+      opacity: 1;
   </style>
 </head>
 
